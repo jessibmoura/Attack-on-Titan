@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    background-image: url('background2.jpg');
+    background-repeat: no-repeat;
+    background-size: 1690px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+div {
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 50px;
+    margin: 25px 1px 5px 680px; /*top right bottom left*/
+}
+
+p{
+    background-color: white;
+    color: black;
+    text-align: left;
+    width: 40%;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 30px 1px 70px 475px; /*top right bottom left*/
+}
+
+
+.btn{
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: Georgia;
+    font-size: 14px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin: 30px 1px 10px 6px; /*top right bottom left*/
+}
+
+
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.custom-select {
+    font-family: Georgia;
+    font-size: 14px;
+    padding: 3px;
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */   
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */   
+    appearance: none; /* Remove estilo padrão do FireFox*/   
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */   
+    background-position: 218px center;  /*Posição da imagem do background*/   
+    width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */   
+    height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */   
+    border:1px solid #ddd;
+    margin: 30px 1px 10px 655px;/*top right bottom left*/
+}
+
+  

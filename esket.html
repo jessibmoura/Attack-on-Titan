@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Attack on Titan</title>
+</head>
+
+<body>
+    <script src="./main.js"></script>
+
+    <h1> <img src="title.png" alt=""> </h1>
+    <!--Imagem como título-->
+
+    <select class="custom-select" id="personagens">
+        <!--Lista com os nomes pré-definidos-->
+        <option value="survey">Personagens</option>
+        <option value="eren">S1 Eren</option>
+        <option value="mikasa">S1 Mikasa</option>
+        <option value="armin">S1 Armin</option>
+        <option value="levi">Levi</option>
+        <option value="sasha">Sasha</option>
+        <option value="jean">Jean</option>
+
+    </select>
+    <button class="btn" onclick="alterar()">Escolher</button>
+    <!--Botão para chamar a função no Javascript-->
+    <div>
+        <img id="survey" src="survey corps.jpg" alt="">
+    </div>
+
+    <p id="bio">
+        <font size=+2><b>Tropa de Exploração</b></font> <br>
+        <br>
+        Divisão militar especializada em lidar com os titãs.<br>
+        Os soldados desta divisão se focam na pesquisa sobre os titãs
+        e na exploração do território além das Muralhas atrás de recursos.<br>
+        A sua insígnia é as asas da liberdade, pois a divisão simboliza
+        a esperança de que a humanidade um dia se liberte do domínio dos titãs.<br>
+        <b>Escolha um membro da Tropa de Exploração para saber mais sobre ele(a)!</b>
+
+    </p>
+
+    <p hidden id="bioEren">
+        Nome: Eren Yaeger
+    </p>
+
+
+
+</body>
+
+</html>
